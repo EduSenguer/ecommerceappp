@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ecommerceappp/static/css/main.69bdb1a0.css",
+    "main.js": "/ecommerceappp/static/js/main.a30fad61.js",
+    "static/js/787.c2ed1617.chunk.js": "/ecommerceappp/static/js/787.c2ed1617.chunk.js",
+    "static/media/spiderman.png": "/ecommerceappp/static/media/spiderman.8f026ca26dde67836795.png",
+    "index.html": "/ecommerceappp/index.html",
+    "main.69bdb1a0.css.map": "/ecommerceappp/static/css/main.69bdb1a0.css.map",
+    "main.a30fad61.js.map": "/ecommerceappp/static/js/main.a30fad61.js.map",
+    "787.c2ed1617.chunk.js.map": "/ecommerceappp/static/js/787.c2ed1617.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69bdb1a0.css",
+    "static/js/main.a30fad61.js"
+  ]
+}
