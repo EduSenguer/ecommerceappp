@@ -46,7 +46,7 @@ function NavBar() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-        {cart == "" ? (true) : (<CartWidget/>)}
+        {cart.length < 1 ? '' : (<CartWidget/>)}
       </Container>
     </Navbar>
   );

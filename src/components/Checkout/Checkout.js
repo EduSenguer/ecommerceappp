@@ -181,14 +181,14 @@ function Checkout() {
                 type="email"
                 name="email"
                 onChange={(event) => setEmail1(event.target.value)}
-                style={{border: email1!=email2? '1px solid red':''}}
+                style={{border: email1!==email2? '1px solid red':''}}
                 />
               <label>Email</label>
               <input
                 type="email"
                 name="email"
                 onChange={(event) => setEmail2(event.target.value)}
-                style={{border: email1!=email2? '1px solid red':''}}
+                style={{border: email1!==email2? '1px solid red':''}}
               />
               <label>Telephone</label>
               <input

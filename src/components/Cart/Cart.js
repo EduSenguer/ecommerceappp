@@ -29,7 +29,7 @@ const Cart = () => {
         <Col m={1}></Col>
       </Row>
       <Container className="containerProds">
-        {cart == "" ? (
+        {cart.length < 1 ? (
           <div className="vacio">
             <p>EMPTY!!!</p>
             <Button as={Link} to="/" className="continue">
@@ -70,7 +70,7 @@ const Cart = () => {
       </Container>
     </Container>
     <hr />
-    {cart == "" ? (
+    {cart.length < 1 ? (
       <></>
     ) : (
       <div className="cartBottom">
