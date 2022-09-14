@@ -58,7 +58,7 @@ const ItemCount = ( {stock, onAddToCart, figuraData} ) => {
               onAdd();
               addToCart({...figuraDataCount})
             }}>
-                Agregar al carrito
+                Add to cart
              </Button>
          </div>
         </Card.Body>

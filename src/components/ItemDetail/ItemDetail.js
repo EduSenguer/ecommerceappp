@@ -43,10 +43,10 @@ const ItemDetail = ( {id, name, imagen, group, year, price, stock, info} ) => {
             {toCart ? (
               <div>
                 <Link to="/">
-                <Button variant="outline-success">Continuar Comprando</Button>
+                <Button variant="outline-success">Continue Shopping!</Button>
               </Link>
               <Link to="/cart">
-                <Button className='m-4' variant="outline-warning">Finalizar Compra!</Button>
+                <Button className='m-4' variant="outline-warning">Complete the purchase!</Button>
               </Link>
               </div>
             ) : (
