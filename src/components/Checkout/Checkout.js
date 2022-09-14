@@ -111,7 +111,7 @@ function Checkout() {
       <div className="checkoutContainer">
         <header>
           <img src={logo} alt="logo" width="40px" />
-          <p>| Enter your data to finalize the purchase!</p>
+          <p>| To complete the transaction, enter your data.!</p>
         </header>
         <div className="contentCheckout">
           <div className="orderBody">
@@ -157,7 +157,7 @@ function Checkout() {
                 <div className="titleEnv">
                   <FaTruck />
                   <div>
-                    <h4>Ups</h4>
+                    <h4>UPS®</h4>
                     <p>Arrives between 5 to 7 business days</p>
                   </div>
                 </div>

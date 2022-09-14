@@ -46,7 +46,7 @@ const ItemDetail = ( {id, name, imagen, group, year, price, stock, info} ) => {
                 <Button variant="outline-success">Continue Shopping!</Button>
               </Link>
               <Link to="/cart">
-                <Button className='m-4' variant="outline-warning">Complete the purchase!</Button>
+                <Button className='m-4' variant="outline-warning">Finish the order!</Button>
               </Link>
               </div>
             ) : (
